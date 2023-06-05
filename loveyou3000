@@ -1,0 +1,7 @@
+import pyautogui as pg
+import time
+time.sleep(8)
+
+for i in range(500):
+	pg.write("I love you")
+	pg.write("3000")
